@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pranathnaik" alt="pranathnaik" /></a> </p>
 
-- 🌱 I’m currently learning **DSA and MERN Stack**
+- 🌱 I’m currently learning **MERN Stack**
 
 - 📫 How to reach me **pranathnaik12@gmail.com**
 
