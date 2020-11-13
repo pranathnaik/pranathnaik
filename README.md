@@ -17,6 +17,3 @@
 <a href="https://www.behance.net/pranathnaik" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/behance.svg" alt="pranathnaik" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/pranath naik" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="pranath naik" height="30" width="40" /></a>
 </p>
-
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pranathnaik&show_icons=true&locale=en" alt="pranathnaik" /></p>
