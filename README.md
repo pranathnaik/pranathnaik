@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pranathnaik&label=Profile%20views&color=0e75b6&style=flat" alt="pranathnaik" /> </p>
 
 
-- 🌱 I’m currently learning **MERN Stack**
+- 🌱 currently learning **MERN Stack**
 
 - 📫 How to reach me **pranathnaik12@gmail.com**
 
