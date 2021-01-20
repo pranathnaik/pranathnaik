@@ -4,8 +4,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pranathnaik&label=Profile%20views&color=0e75b6&style=flat" alt="pranathnaik" /> </p>
 
 
-- M E R N stack
-
 - 📫 How to reach me **pranathnaik12@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
