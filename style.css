@@ -1,9 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body::-webkit-scrollbar {
+  width: 1.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: 19px 19px 38px #3e5a8e, -19px -19px 38px #6290e4;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #5075b9;
+  box-shadow: inset 7px 7px 15px #3e5a8e, inset -7px -7px 15px #6290e4;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
 }
 body {
@@ -14,11 +28,34 @@ body {
   flex-direction: column;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social a img {
+  border: 2px solid #86abf0;
+  width: 70px;
+  background: #5075b9;
+  box-shadow: 5px 5px 14px #364e7c, -5px -5px 14px #6a9cf6;
+}
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f5f9ff;
+}
+.bio {
+  font-size: larger;
+  color: #e6f4f1;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
 }
-a {
+.a,
+.b,
+.c {
   border-radius: 50px;
   background: #5075b9;
   box-shadow: inset 7px 7px 15px #3e5a8e, inset -7px -7px 15px #6290e4;
@@ -26,21 +63,20 @@ a {
   width: 200px;
   height: 40px;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 19px;
   font-family: sans-serif;
   text-decoration: none;
-  color: #333;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
   transition: all 0.35s;
 }
-a span {
+:is(.a, .b, .c) span {
   position: relative;
   z-index: 2;
 }
 
-a:after {
+:is(.a, .b, .c):after {
   position: absolute;
   content: "";
   top: 0;
@@ -48,17 +84,23 @@ a:after {
   width: 0;
   height: 100%;
   border-radius: 50px;
-  background: linear-gradient(145deg, #4869a7, #567dc6);
-  box-shadow: 7px 7px 15px #3e5a8e, -7px -7px 15px #6290e4;
+
   transition: all 0.35s;
 }
-
-a:hover {
-  color: #fff;
+.a:after {
+  background-color: #98fb98;
+}
+.b:after {
+  background-color: #afeeee;
+  color: white;
+}
+.c:after {
+  background-color: #ffffff;
 }
 
-a:hover:after {
+:is(.a, .b, .c):hover:after {
   width: 100%;
+  color: white;
 }
 
 .profilesection {
@@ -98,7 +140,7 @@ a:hover:after {
 }
 
 .content {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -128,8 +170,13 @@ a:hover:after {
 }
 .skillicons img {
   margin: 0.8rem;
+  border: white solid 2px;
 }
 
+.profilesection a img {
+  border-radius: 20rem;
+  width: 3.5rem;
+}
 /* .upbutton {
   border-radius: 50px;
   background: #5075b9;
