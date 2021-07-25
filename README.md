@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Pranath Naik</h1>
 <h3 align="center">Currently pursuing MCA</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pranathnaik&label=Profile%20views&color=0e75b6&style=flat" alt="pranathnaik" /> </p>
-
 
 - 📫 Currently working on **Flutter app & MERN web-app**
 - 📫 How to reach me **pranathnaik12@gmail.com**
