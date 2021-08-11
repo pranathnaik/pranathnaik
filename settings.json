@@ -1,0 +1,24 @@
+{
+  "workbench.colorTheme": "Dobri Next -B01- Hard",
+  "editor.fontFamily": "Roboto Mono",
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "files.autoSave": "afterDelay",
+  "dart.previewFlutterUiGuides": true,
+  "git.ignoreRebaseWarning": true,
+  "terminal.integrated.fontFamily": "Roboto Mono",
+  "editor.inlineHints.fontFamily": "Roboto Mono",
+  //coutomize ui
+  "customizeUI.activityBar": "top",
+  "customizeUI.fontSizeMap": {
+    // "13px": "11px",
+    // "12px": "11px",
+    "window-title": "12px", // Window title font when using custom titlebar
+    "tab-title": "12px", // Used for editor tab titles
+    // Used for monospace fonts in user interface
+    "menu": "13px", // Used for menu items (windows only)
+  },
+  "customizeUI.listRowHeight": 32,
+  "customizeUI.font.regular": "Roboto Mono",
+  "customizeUI.font.monospace": "Roboto Mono",
+}
