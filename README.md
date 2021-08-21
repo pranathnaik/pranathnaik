@@ -18,7 +18,7 @@
 <a href="https://www.youtube.com/c/pranath naik" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="pranath naik" height="30" width="40" /></a>
 </p>
 
-<a href="https://github.com/arps18">
+<a href="https://github.com/pranathnaik">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranathnaik&text_color=00FF66&theme=dark&hide_langs_below=1" />
 </a>
 
