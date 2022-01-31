@@ -226,7 +226,8 @@ body {
     text-align: center;
   }
   .name {
-    font-size: 2rem text align center;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .social {
