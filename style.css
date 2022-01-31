@@ -104,33 +104,39 @@ body {
 }
 
 .profilesection {
-  margin-top: 6rem;
-  margin-right: 9rem;
-  margin-left: 9rem;
+  margin: 6rem 0;
   display: flex;
-  border-radius: 50px;
+  justify-content: center;
 }
 .textdis {
   border-radius: 50px;
   align-self: center;
   color: #fff;
-  padding: 4rem;
+  padding: 38px;
   /* background: linear-gradient(145deg, #567dc6, #4869a7);
   box-shadow: 19px 19px 38px #3e5a8e, -19px -19px 38px #6290e4; */
 }
 .textdis p {
   margin-top: 0.5rem;
-  margin-right: 10rem;
+}
+
+.photosection {
+  width: 400px;
 }
 .profilepic {
-  width: 19rem;
+  width: 250px;
+  height: 250px;
   border: 8px solid #7c9fe0;
-  border-radius: 20rem;
+  border-radius: 50%;
   background: linear-gradient(145deg, #4869a7, #567dc6);
   box-shadow: 19px 19px 38px #3e5a8e, -19px -19px 38px #6290e4;
 }
+.profilepic img {
+  border-radius: 50%;
+  width: 100%;
+}
 
-.skills {
+.prof .skills {
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
@@ -203,3 +209,50 @@ body {
 .upbutton:hover:after {
   width: 100%;
 } */
+
+@media only screen and (max-width: 600px) {
+  .profilesection {
+    flex-wrap: wrap;
+    margin: 4rem 0;
+  }
+
+  profilepic {
+    margin: auto;
+  }
+
+  .textdis p {
+    text-align: center;
+  }
+  .name {
+    font-size: 2rem text align center;
+  }
+
+  .social {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  body {
+    padding: 22px;
+  }
+
+  .skills h2 {
+    text-align: Center;
+  }
+
+  .category {
+    margin-bottom: 30px;
+  }
+
+  .a,
+  .b,
+  .c {
+    width: 100px;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+  .profilepic {
+    margin: auto;
+  }
+}
