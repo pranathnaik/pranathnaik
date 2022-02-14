@@ -211,8 +211,23 @@ body {
 .upbutton:hover:after {
   width: 100%;
 } */
+.badge-base.LI-profile-badge {
+  background: url("./Bean.svg") center center no-repeat;
+}
+a.badge-base__link.LI-simple-link {
+  display: none;
+}
 
-@media only screen and (max-width: 600px) {
+.badge-base.LI-profile-badge {
+  margin-right: 42px;
+}
+
+@media only screen and (max-width: 1136px) {
+  .badge-base.LI-profile-badge {
+    margin-bottom: 38px;
+    margin-right: 0px;
+  }
+
   .profilesection {
     flex-wrap: wrap;
     margin: 4rem 0;
